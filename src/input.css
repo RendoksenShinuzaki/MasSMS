@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@media (min-width: 640px) {
+    .flex-row {
+      @apply flex-row;
+    }
+  
+    .flex-col {
+      @apply flex-col;
+    }
+  }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
